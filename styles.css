@@ -1,0 +1,126 @@
+#top-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8px; 
+    background-color: rgb(65, 65, 65);
+}
+
+body{
+    background-color: rgb(255, 255, 241);
+    border-right: 10vw solid rgb(234, 179, 132); 
+    border-left: 10vw solid rgb(234, 179, 132); 
+    color: rgb(83, 83, 83);
+}
+
+a{
+    color: rgb(138, 137, 130);
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(223, 127, 59);
+    color: rgb(255, 255, 241);
+
+}
+
+.home_main_header{
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma;
+    background-color: rgb(217, 130, 58);
+    color: rgb(255, 241, 210);
+}
+.home_main_subheader{
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma;
+    background-color: rgb(234, 179, 132);
+    color: rgb(255, 241, 210);
+}
+.coach_main_header{
+    font-weight: lighter;
+    font-size:180%;
+    letter-spacing: 3px;
+    font-family:Verdana, Geneva, Tahoma;
+    background-color: rgb(185, 122, 87);
+    color: rgb(248, 216, 190);
+
+}
+.coach_main_subheader{
+    font-weight: lighter;
+    color: rgb(255, 179, 87);
+    word-spacing: 4px;
+    font-family:Verdana, Geneva, Tahoma;
+    background-color: none;
+    padding: 10px 10px 0px 0px;
+
+}
+.main_header{
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma;
+    background-color: rgb(185, 122, 87);
+    color: rgb(255, 241, 210);
+}
+.main_subheader{
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma;
+    background-color: rgb(185, 122, 87);
+    color: rgb(255, 241, 210);
+}
+
+
+.Triumph{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 350%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 10px;
+    padding: 10px 0px 1px 10px;
+    background-color: rgb(255, 229, 218);
+    color: rgb(108, 70, 43)
+
+}
+.GEC{
+    font-weight: bolder;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 10px 0px 0px 10px;
+    background-color: rgb(65, 65, 65);
+    color: rgb(255, 132, 17);
+}
+
+.schedule ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+.links{
+    font-weight: lighter;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.comments{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.coach_comment{
+    width: 100%;
+    padding: 1px 1px 1px 10px ;
+    line-height: 140%;
+    background-color: #e68641;
+    color:rgb(255, 229, 218);
+}
+
+
+
+
+.right p {
+    color: #e68641;
+  }
+
