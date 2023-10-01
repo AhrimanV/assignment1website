@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+header{
+  padding-bottom: 25px;
+}
+body{
+    margin: 0px;
+}
+
+h1,h2{
+    margin: 0%;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0; 
+    margin: 0; 
+  }
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.menu a {
+  margin-top: 7px;
+  display: block;
+  width: fit-content;
+}
+
+.sports_main{
+    float: left;
+    width: 70%;
+    padding-right: 20px;
+}
+
+.home_main {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.coach_main{
+  float: left;
+  width: 70%;
+  padding-right: 20px;
+}
+
+.right {
+  float: left; /*seems counter intuitive, but it goes closer to the main*/
+  width: 30%;
+  padding: 0px 15px 15px 15px;
+  margin-top: 7px;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.Triumph{
+  padding: 10px 0px 4px 8px ;
+}
+
+.GEC{
+  padding: 10px 0px 4px 8px ;
+}
+
+.homeImg{
+    width: 20vw;
+}
+
+footer{
+  padding: 1rem; 
+  clear: both;
+}
+
+.main_header{
+  margin-bottom: 20px;
+}
+
+.coach_main_header{
+  width: fit-content;
+}
+
+.newgroup{
+  padding-top: 20px;
+}
+
+.bio{
+  padding-bottom: 10px;
+}
+
+.bio img{
+  float: right;
+  width: 220px; 
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.container{
+  padding-top: 3%;
+}
+
+.coach_bio{
+  padding-bottom: 10px;
+}
+.coach_bio img{
+  float: left;
+  width: 220px; 
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
