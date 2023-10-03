@@ -1,5 +1,5 @@
-# Assignment web dev 1 CCCS310
-Simal company's new website.
+# Simal company's new website.
+Assignment 1 - WebDev - CCCS310
 
 ## Participants:
 Daphney
