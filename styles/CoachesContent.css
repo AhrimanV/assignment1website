@@ -1,0 +1,216 @@
+.container {
+    max-width: 1200px;  
+    margin: 0 auto;     
+    padding: 0;     
+    background-color: #fffff0; 
+}
+
+.sidebar.left{
+    float: left;
+    width: auto;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+header {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #333;  
+    background-color: #ebb284;  
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin-top: 0; 
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2C3E50;  
+}
+
+h2 {
+    font-size: 3.5em;
+    color: #f5d4b9;
+    font-weight: normal;  
+    margin: 0px;
+    margin-right: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b97a57;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #de803c;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;  
+}
+
+
+/* Links in the left sidebar */
+a {
+    color: #677177;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2C3E50; 
+}
+
+ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding-left: 1.5em;
+}
+
+li { 
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+li.newgroup {
+    margin-top: 20px; /* Adds space above list items with the .newgroup class */
+}
+
+.class-entry{
+    display:flex;
+    align-items: start;
+    margin-bottom: 0px;
+}
+
+.class-entry p{
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.class-icon{
+    margin-right: 4px;
+    width: 24px;
+}
+
+.coach-text-wrapper {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.aboutGEC-image-floatKevin, .aboutGEC-image-floatTammy {
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    height: 160px;
+}
+
+.about-content-float {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 50%; 
+    
+}
+
+.right {
+    float: right;
+    width: 50%;  
+}
+
+.about-content-float-text{
+    float: right; 
+    margin-left: 20px; 
+    margin-bottom: 40px; 
+    height: auto;
+    background-color: #de803c;
+    color: white;
+    padding: 10px;
+}
+
+.about-content-float-text::before {
+    
+    content: '“';  
+    font-size: 1.5em;  
+    color: white;
+    margin-right: 5px; 
+}
+
+.about-content-float-text::after {
+    content: '”';  
+    font-size: 1.5em;  
+    color: white;
+    margin-left: 5px;
+}
+
+.aboutGEC-image-floatTammy {
+    height: 260px;
+}
+
+/* Clear the float after the content */
+.coach-text-wrapper-float::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.coach-text {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+/*Information about the "About GEC" section */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.about-content{
+    
+    align-items: start;
+}
+
+/* Clear the float after the content */
+.about-content-float::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aboutGEC-image{
+
+    height: 300px;
+    margin-right: 15px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #de803c;
+    text-align: center;
+    color:#f5d4c7;
+    padding: 0.1em;
+    margin: 0;
+}
+
+
+
+

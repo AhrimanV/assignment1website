@@ -1,0 +1,135 @@
+.container {
+    max-width: 1200px;  
+    margin: 0 auto;     
+    padding: 0;     
+    background-color: #fffff0; 
+}
+
+.sidebar.left{
+    float: left;
+    width: auto;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+header {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #333;  
+    background-color: #ebb284;  
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin-top: 0; 
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2C3E50;  
+}
+
+h2 {
+    font-size: 2.1em;
+    color: white;
+    font-weight: normal;  
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b46730;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: white;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b46730;  
+}
+
+
+/* Links in the left sidebar */
+a {
+    color: #677177;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2C3E50;  
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;  
+}
+
+ol {
+    list-style-type: none; /* Removes the bullet points */
+    padding-left: 1.5em;
+    list-style-position: inside;
+}
+
+li { 
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding-left: 1.5em;
+}
+
+li.newgroup {
+    margin-top: 20px; /* Adds space above list items with the .newgroup class */
+}
+
+li.hoursBulletPoints {
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 6px;
+    padding-left: 6px;
+}
+
+li.hours{
+    font-size: 16px;
+   margin-left: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.course-outline p{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.roman-list {
+    list-style-type: upper-roman;
+}
+
+.alpha-list {
+    list-style-type: upper-alpha;
+}
+
+.number-list {
+    list-style-type: decimal;
+}
+
+footer {
+    background-color: #de803c;
+    text-align: center;
+    color:#f5d4c7;
+    padding: 0.1em;
+    margin: 0;
+}
+
+

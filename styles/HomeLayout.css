@@ -1,0 +1,27 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header, nav, section{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar.left {
+    float: left;
+    width: 20%;
+}
+
+.sidebar.right {
+    float: right;
+    width: 20%;
+}
+
+.about, .classes, .philosophy{
+    width: 52%;
+    margin: auto;
+}
+
+footer{
+    margin: 0em;
+}
